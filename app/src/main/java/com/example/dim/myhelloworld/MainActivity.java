@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void sendMessage (View view )
     {
+
         EditText editText = (EditText) findViewById(R.id.editText);
         EditText editText2 = (EditText) findViewById(R.id.editText2);
         String user = editText.getText().toString();
