@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         //test
         EditText editText2 = (EditText) findViewById(R.id.editText2);
         String user = editText.getText().toString();
-        //test
+
         String pass = editText2.getText().toString();
         if (UserName.equals(user) && Psw.equals(pass)){
         Intent intent = new Intent(this, DisplayMessageActivity.class);
