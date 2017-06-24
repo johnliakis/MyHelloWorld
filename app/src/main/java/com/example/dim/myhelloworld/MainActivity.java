@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     {
 
         EditText editText = (EditText) findViewById(R.id.editText);
+        //test
         EditText editText2 = (EditText) findViewById(R.id.editText2);
         String user = editText.getText().toString();
         String pass = editText2.getText().toString();
